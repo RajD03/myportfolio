@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media(max-width: 998px) {
+    html {
+        font-size: 55%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media(max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+    background: var(--Color-1, #1F1F1F);
+    overflow: hidden;
+    position: sticky;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav a {
+    color: #F8F7F9;
+    margin: 2rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.myhome {
+    background: var(--Color-1, #1F1F1F);
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+._part1 {
+    color: #F8F7F9;
+    width: 50%;
+    padding: 2rem;
+    overflow-wrap: break-word;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-left: #F8F7F9 solid 2px;
+    box-shadow: -10px 2px 2px 1px#F8F7F9;
+
+}
+
+._part1 h1,
+h2,
+h3 {
+    width: 100%;
+    font-size: 100%;
+}
+
+._part1 h1 {
+    font-size: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+._part1 h2 {
+    font-size: 3rem;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+._part1 h3 {
+    font-size: 2.1rem;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+._part2 {
+    width: 35%;
+    height: 64.5rem;
+    padding: 2rem;
+}
+
+.raj {
+    height: 100%;
+    width: 100%;
+    border-radius: 5rem;
+    box-shadow: .1rem .1rem 4rem .1rem #F8F7F9;
 }

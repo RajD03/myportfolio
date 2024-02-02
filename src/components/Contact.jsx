@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
-    return(
+
+
+    return (
         <>
-            <div className="_cont" >
+            <div className="_cont" id="contacts" >
                 <h1>Contact</h1>
             </div>
             <div id="_foot">
                 <div>
-                    <input type="name" placeholder="Enter Your Name " className="_iname" required ></input>
+                    <input type="name" placeholder="Enter Your Name " className="_iname" required  ></input>
                     <input type="name" placeholder="Enter Your Email " className="_iname" required ></input>
                     <input type="name" placeholder="Enter Your Phone Number " className="_lastname" required></input>
                 </div>
