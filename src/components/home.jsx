@@ -11,6 +11,7 @@ const home = () => {
                     <h3>“Your website is the center of your digital eco-system, like a brick and mortar location,
                         the experience matters once a customer enters, just as much as the perception they have of you before they walk through the door.”
                         ― Leland Dieno</h3>
+                    <a> DOWNLOAD RESUME</a>
                 </div>
                 <div className='_part2'>
                     <img src={img1} className="raj" />
