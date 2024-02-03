@@ -60,7 +60,7 @@ nav a:hover {
     margin: 1rem;
     border-radius: 1rem;
     border-left: #F8F7F9 solid 2px;
-    box-shadow: -10px 2px 2px 1px#F8F7F9;
+    box-shadow: -7px 0px 10px 1px#F8F7F9;
 
 }
 
@@ -89,6 +89,27 @@ h3 {
     width: 100%;
     height: auto;
     margin-top: 3rem;
+}
+
+._socialmedia {
+    width: fit-content;
+    margin-top: 10rem;
+    height: fit-content;
+}
+
+._socialmedia img:hover {
+    box-shadow: 0px 1px 10px 10px#F8F7F9;
+}
+
+._github,
+._insta,
+._twitter,
+._linkedin {
+    width: 7%;
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px 1px#F8F7F9;
 }
 
 ._part2 {
