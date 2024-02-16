@@ -25,7 +25,7 @@ const project = () => {
                                 </div>
                                 <div className='cards_name'>
                                     <a className='card_type' ><h1>{item.type} </h1> </a>
-                                    <a className='card_desc'><h1>{item.description} </h1> </a>
+                                    {/* <a className='card_desc'><h1>{item.description} </h1> </a> */}
                                 </div>
                             </div>
                         ))}
