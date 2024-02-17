@@ -20,25 +20,26 @@ const myprojects = [{
     image: img8,
     description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
     type: "REDUX-SAGA"
-},
-{
-    id: 4,
-    image: img8,
-    description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
-    type: "REDUX-SAGA"
-},
-{
+}
+    // {
+    //     id: 4,
+    //     image: img8,
+    //     description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
+    //     type: "REDUX-SAGA"
+    // },
+    // {
 
-    id: 5,
-    image: img8,
-    description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
-    type: "REDUX-SAGA"
-},
-{
-    id: 6,
-    image: img8,
-    description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
-    type: "REDUX-SAGA"
-}]
+    //     id: 5,
+    //     image: img8,
+    //     description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
+    //     type: "REDUX-SAGA"
+    // },
+    // {
+    //     id: 6,
+    //     image: img8,
+    //     description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
+    //     type: "REDUX-SAGA"
+    // }
+]
 
 export default myprojects;

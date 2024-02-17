@@ -14,8 +14,8 @@ const project = () => {
     };
     return (
         <>
-            <div className='_box'>
-                <h1 className='_pro'>Projects</h1>
+            <div className='_box' id="projects">
+                <h1 className='_pro'>Projects🎖️</h1>
                 <div className='main_container'>
                     <Slider {...settings}>
                         {myprojects.map((item) => (
