@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import myprojects from './projectsData'
 
 const project = () => {
+
     const settings = {
         dots: true,
         infinite: true,
@@ -14,17 +15,17 @@ const project = () => {
     };
     return (
         <>
-            <div className='_box' id="projects">
+            <div className='_box' id="projects" >
                 <h1 className='_pro'>Projects🎖️</h1>
-                <div className='main_container'>
+                <div className='main_container' data-aos="fade-left">
                     <Slider {...settings}>
                         {myprojects.map((item) => (
                             <div className='all_cards'>
                                 <div className='cards_image'>
-                                    <a> <img src={item.image} className='card_img' /></a>
+                                    <a href={item.link}> <img src={item.image} className='card_img' /></a>
                                 </div>
                                 <div className='cards_name'>
-                                    <a className='card_type' ><h1>{item.type} </h1> </a>
+                                    <a href={item.link} className='card_type' ><h1>{item.type} </h1> </a>
                                     {/* <a className='card_desc'><h1>{item.description} </h1> </a> */}
                                 </div>
                             </div>

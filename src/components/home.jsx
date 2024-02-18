@@ -10,7 +10,7 @@ const home = () => {
     return (
         <>
             <section className='myhome' id="home" >
-                <div className="_part1" >
+                <div className="_part1">
                     <h1>Hi, I'M D D Raj</h1>
                     <h2>I'M A WEB DESIGNER</h2>
                     <h3>“Your website is the center of your digital eco-system, like a brick and mortar location,
@@ -23,7 +23,7 @@ const home = () => {
                         <a href='https://www.instagram.com/divesh_raj_03/' target='blank' ><img src={img5} className='_insta' /></a>
                     </div>
                 </div>
-                <div className='_part2'>
+                <div className='_part2' data-aos="zoom-in">
                     <img src={img1} className="raj" />
                 </div>
             </section>

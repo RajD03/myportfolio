@@ -11,7 +11,7 @@ const skills = () => {
         <>
             <div className='_skill' id='about'>
                 <h1>Skills🛠️</h1>
-                <div className='skill_img'>
+                <div className='skill_img' data-aos="fade-right">
                     <img src={Cssimg} className='_icss' />
                     <img src={Html5img} className='_ihtml' />
                     <img src={Javascriptimg} className='_ijs' />
