@@ -5,7 +5,6 @@ import img3 from './images/linkedin.jpg';
 import img4 from './images/x.jpg';
 import img5 from './images/insta.jpg';
 
-
 const home = () => {
     return (
         <>
@@ -21,6 +20,7 @@ const home = () => {
                         <a href='https://www.linkedin.com/in/d-d-raj-7a4b35247/' target='blank'><img src={img3} className='_linkedin' /></a>
                         <a href='https://twitter.com/home?lang=en' target='blank'><img src={img4} className='_twitter' /></a>
                         <a href='https://www.instagram.com/divesh_raj_03/' target='blank' ><img src={img5} className='_insta' /></a>
+                        <a href='MyRajume.pdf' className='my_cv' >Download CV</a>
                     </div>
                 </div>
                 <div className='_part2' data-aos="zoom-in">
