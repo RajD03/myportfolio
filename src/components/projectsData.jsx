@@ -2,6 +2,8 @@ import React from 'react'
 import img6 from './images/forms.png'
 import img7 from './images/natflixx.png'
 import img8 from './images/fitness&wellness.jpg'
+import img9 from './images/accordion.png'
+import img10 from './images/Quotesss.png'
 
 const myprojects = [{
     id: 1,
@@ -23,6 +25,20 @@ const myprojects = [{
     link: "#",
     description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
     type: "Not Ready to Show"
+},
+{
+    id: 4,
+    image: img9,
+    link: "https://coolaccordion.netlify.app/",
+    description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
+    type: "Accordion"
+},
+{
+    id: 5,
+    image: img10,
+    link: "https://dynamicfamousquote.netlify.app/",
+    description: " This project utilizes React's map function and props for efficient rendering, creating a dynamic and modular user interface that effortlessly displays a list of items. ",
+    type: "Dynamic Quotes"
 }
 
 ]
